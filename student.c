@@ -116,7 +116,7 @@ void modify()
             scanf("%lf", &stu[i].expe); // 读取学生的实验课成绩
             printf("请输入学生的必修课成绩：");
             scanf("%lf", &stu[i].requ);                           // 读取学生的必修课成绩
-            stu[i].sum = stu[i].elec + stu[i].expe + stu[i].requ; // 计算总分
+            stu[i].sum = stu[i].elec + stu[i].expe + stu[i].requ; // 计算总分数
             printf("修改成功\n");
             return;
         }
